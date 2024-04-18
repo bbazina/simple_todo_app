@@ -1,0 +1,41 @@
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.todo-text {
+  margin-left: 8px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.delete-button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #d84315;
+}
+
+.edit-button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
